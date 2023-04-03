@@ -1,10 +1,10 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import Navbar from "components/Navbar";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { Carousel } from "react-responsive-carousel";
-import Footer from "components/Footer";
+import Footer from "@/components/Footer";
 
 export default function IndexPage() {
   return (

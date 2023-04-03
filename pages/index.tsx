@@ -14,10 +14,15 @@ export default function IndexPage() {
       <div className="flex flex-col items-center  gap-y-12">
         <div className="relative">
           <h1 className="mt-12  lg:mt-8 lg:mb-2 max-w-3xl text-center text-2xl font-bold  sm:text-4xl lg:max-w-none lg:text-5xl">
-            Welcome! From the Health Education Team
+            The Health Education Project
           </h1>
 
-          <div className="absolute top-2 -right-20 hidden lg:block">
+          <p className="text-center mt-6 font-medium text-lg">
+            Empowering communities and teaching life-saving skills through
+            public health outreach
+          </p>
+
+          <div className="absolute -top-2 -right-16 hidden lg:block">
             <img src="/underline.png" />
           </div>
         </div>
@@ -40,10 +45,10 @@ export default function IndexPage() {
             </Carousel>
           </div>
           <div className="flex max-w-2xl flex-col lg:max-w-none">
-            <h2 className="mb-4 text-center text-3xl font-bold tracking-wider lg:text-left">
+            <h2 className="mb-4 text-center text-3xl font-bold lg:text-left">
               Mission Statement
             </h2>
-            <p className=" text-center font-medium leading-9 tracking-wide lg:text-left">
+            <p className=" text-center font-medium leading-9  lg:text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -60,17 +65,14 @@ export default function IndexPage() {
       </div>
 
       <div className="mt-32 flex flex-col items-center gap-y-6 lg:mt-0">
-        <h2
-          id="initiatives"
-          className=" text-4xl font-extrabold tracking-wider"
-        >
+        <h2 id="initiatives" className=" text-4xl font-extrabold ">
           Our Initiatives
         </h2>
 
         <div className="flex flex-wrap items-center justify-center gap-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-6 max-w-lg lg:max-w-none">
           <div className="flex w-full h-[400px] lg:w-[400px] flex-col items-center justify-around rounded-[1rem] border-4 border-white bg-[#CFF0F9] p-4">
-            <h3 className=" text-3xl font-bold tracking-wider">Boy Scouts</h3>
-            <p className="text-center font-medium leading-9 tracking-wide">
+            <h3 className=" text-3xl font-bold ">Boy Scouts</h3>
+            <p className="text-center font-medium leading-9 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna
             </p>
@@ -83,8 +85,8 @@ export default function IndexPage() {
           </div>
 
           <div className="flex w-full h-[400px] lg:w-[400px] flex-col items-center justify-around rounded-[1rem] border-4 border-white bg-[#F6D1CC] p-4">
-            <h3 className=" text-3xl font-bold tracking-wider">Legislation</h3>
-            <p className="text-center font-medium leading-9 tracking-wide">
+            <h3 className=" text-3xl font-bold ">Legislation</h3>
+            <p className="text-center font-medium leading-9 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna
             </p>
@@ -97,8 +99,8 @@ export default function IndexPage() {
           </div>
 
           <div className="border-whit flex w-full h-[400px] lg:w-[400px] flex-col items-center justify-around rounded-[1rem] border-4 border-white bg-[#FFF7AE] p-4">
-            <h3 className=" text-3xl font-bold tracking-wider">Presentation</h3>
-            <p className="text-center font-medium leading-9 tracking-wide">
+            <h3 className=" text-3xl font-bold ">Presentation</h3>
+            <p className="text-center font-medium leading-9 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna
             </p>
@@ -111,8 +113,8 @@ export default function IndexPage() {
           </div>
 
           <div className="border-whit flex w-full h-[400px] lg:w-[400px] flex-col items-center justify-around rounded-[1rem] border-4 border-white bg-[#C3D69B] p-4">
-            <h3 className=" text-3xl font-bold tracking-wider">Books</h3>
-            <p className="text-center font-medium leading-9 tracking-wide">
+            <h3 className=" text-3xl font-bold ">Books</h3>
+            <p className="text-center font-medium leading-9 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna
             </p>
@@ -133,7 +135,7 @@ export default function IndexPage() {
       </div>
 
       <div className="my-16 flex w-full flex-wrap items-center justify-around gap-4 rounded-[1rem] bg-[#FFE8D3] py-14">
-        <h1 className="text-center text-3xl font-extrabold tracking-wider">
+        <h1 className="text-center text-3xl font-extrabold ">
           Want to help out?
         </h1>
 

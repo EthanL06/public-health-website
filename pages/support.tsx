@@ -8,9 +8,7 @@ const Support = (props: Props) => {
     <div className="mx-auto flex h-full min-h-screen max-w-6xl flex-col items-center p-4">
       <Navbar />
       <div className="relative mb-16">
-        <h1 className="mt-6 text-center text-5xl font-bold tracking-wider">
-          Support Us
-        </h1>
+        <h1 className="mt-6 text-center text-5xl font-bold ">Support Us</h1>
 
         <div className="absolute -top-2 -right-20 hidden lg:block">
           <img src="/underline.png" />

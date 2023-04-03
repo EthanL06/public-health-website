@@ -7,9 +7,7 @@ const About = (props: Props) => {
     <div className="mx-auto flex h-full min-h-screen max-w-6xl flex-col items-center p-4">
       <Navbar />
       <div className="relative mb-8">
-        <h1 className="mt-6 text-center text-5xl font-bold tracking-wider">
-          About Us
-        </h1>
+        <h1 className="mt-6 text-center text-5xl font-bold ">About Us</h1>
 
         <div className="absolute -top-2 -right-20 hidden lg:block">
           <img src="/underline.png" />
@@ -23,9 +21,7 @@ const About = (props: Props) => {
             <h3 className="mt-4 text-base font-semibold  opacity-80">
               Co-Founder
             </h3>
-            <h2 className="text-2xl font-bold tracking-wider">
-              Sanjay Krishna
-            </h2>
+            <h2 className="text-2xl font-bold ">Sanjay Krishna</h2>
           </div>
 
           <a
@@ -42,7 +38,7 @@ const About = (props: Props) => {
             <h3 className="mt-4 text-base font-semibold  opacity-80">
               Co-Founder
             </h3>
-            <h2 className="text-2xl font-bold tracking-wider">Anagha Menon</h2>
+            <h2 className="text-2xl font-bold ">Anagha Menon</h2>
           </div>
 
           <a href="mailto:anaghamenon8@gmail.com" className="mt-4 underline">
@@ -56,7 +52,7 @@ const About = (props: Props) => {
             <h3 className="mt-4 text-base font-semibold  opacity-80">
               Co-Founder
             </h3>
-            <h2 className="text-2xl font-bold tracking-wider">Shaunak Kapur</h2>
+            <h2 className="text-2xl font-bold ">Shaunak Kapur</h2>
           </div>
 
           <a href="mailto:shaunak1206@gmail.com" className="mt-4 underline">

@@ -2,23 +2,29 @@ import { useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-
+import { motion } from "framer-motion";
 type Props = {};
 const Navbar = (props: Props) => {
   const [show, setShow] = useState(false);
 
   return (
     <>
-      <nav className="flex w-full flex-col items-center gap-4 px-2 lg:flex-row lg:justify-between">
+      <motion.nav
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="flex w-full flex-col items-center gap-4 px-2 lg:flex-row lg:justify-between"
+      >
         <Link href={"/"}>
           <img className="w-48 lg:w-auto" src="/logo.webp" />
         </Link>
 
         <ul className="flex w-full flex-wrap justify-around gap-x-4 text-lg text-[#0B1E5B] lg:w-auto lg:justify-between lg:gap-x-12">
-          <li className="">
+          <li className="hover-underline-animation">
             <Link href={"/"}>Home</Link>
           </li>
-          <li>
+          <li className="hover-underline-animation">
             <Link href={"/about"}>About Us</Link>
           </li>
           <li>
@@ -44,11 +50,11 @@ const Navbar = (props: Props) => {
                 onMouseOver={() => {
                   setShow(true);
                 }}
-                className="bg-white absolute rounded flex flex-col z-10 gap-y-2"
+                className="bg-white absolute rounded flex flex-col z-10 gap-y-2 "
               >
                 <Link
                   href={"/initiatives/boyscouts"}
-                  className="hover:bg-black/10 overflow-clip p-3 "
+                  className="hover:bg-black/10 overflow-clip p-3"
                 >
                   Boy Scouts
                 </Link>
@@ -74,18 +80,18 @@ const Navbar = (props: Props) => {
             )}
           </li>
 
-          <li className="block lg:hidden">
+          <li className="block lg:hidden hover-underline-animation">
             <Link href={"/support"}>Support</Link>
           </li>
         </ul>
 
         <Link
           href={"/support"}
-          className="hidden rounded-full border border-[#F6A290] px-4 py-3 text-lg font-bold lg:block"
+          className="hidden rounded-full border border-[#F6A290] px-4 py-3 text-lg font-bold transition-transform hover:scale-95 active:scale-90 lg:block"
         >
           Support Us
         </Link>
-      </nav>
+      </motion.nav>
     </>
   );
 };

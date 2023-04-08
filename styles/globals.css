@@ -8,7 +8,7 @@ body,
   height: 100%;
   scroll-behavior: smooth;
   scroll-padding-top: 20px;
-  @apply bg-[#f3f6ef];
+  @apply bg-[#ffffe4];
 }
 
 body {
@@ -23,4 +23,37 @@ body {
 
 .slider-wrapper {
   @apply rounded-lg;
+}
+
+@layer utilities {
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0b1e5b;
+  }
+
+  .hover-underline-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0b1e5b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .strokeme {
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 }

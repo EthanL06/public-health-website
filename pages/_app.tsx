@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
           content="Empowering communities and teaching life-saving skills through public health outreach"
         />
 
-        <link rel="icon" href="/logo.webp" />
+        <link rel="icon" href="/logo.png" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="The Health Education Project" />
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:description"
           content="Empowering communities and teaching life-saving skills through public health outreach"
         />
-        <meta property="og:image" content="logo.webp" />
+        <meta property="og:image" content="logo.png" />
       </Head>
       <Component {...pageProps} />
     </>

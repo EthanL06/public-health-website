@@ -17,7 +17,7 @@ const Navbar = (props: Props) => {
         className="flex w-full flex-col items-center gap-4 px-2 lg:flex-row lg:justify-between"
       >
         <Link href={"/"}>
-          <img className="w-48 lg:w-auto" src="/logo.webp" />
+          <img className="w-96" src="/logo.png" />
         </Link>
 
         <ul className="flex w-full flex-wrap justify-around gap-x-4 text-lg text-[#0B1E5B] lg:w-auto lg:justify-between lg:gap-x-12">

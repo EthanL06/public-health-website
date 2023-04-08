@@ -13,7 +13,7 @@ const Support = (props: Props) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
-          className="mt-6 text-center text-5xl font-bold "
+          className="mt-6 text-center text-4xl  lg:text-5xl  font-bold "
         >
           Support Us
         </motion.h1>

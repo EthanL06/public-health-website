@@ -102,10 +102,10 @@ export default function IndexPage() {
         <div className="h-3 w-3 rounded-full bg-[#0B1E5B]"></div>
       </div>
 
-      <div className="mt-40 flex flex-col items-center gap-y-6 lg:mt-0">
+      <div className="mt-40 flex flex-col items-center gap-y-6 lg:mt-0 ">
         <motion.h2
           id="initiatives"
-          className=" text-4xl font-extrabold tracking-wider"
+          className=" text-4xl font-extrabold tracking-wider text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -120,7 +120,7 @@ export default function IndexPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="flex h-[400px] w-[400px] flex-col items-center justify-around rounded-[1rem]  bg-[#858484] p-4"
+            className="flex h-[400px] w-full sm:w-[400px] flex-col items-center justify-around rounded-[1rem]  bg-[#858484] p-4"
           >
             <h3 className=" text-3xl font-bold tracking-wider text-white">
               Boy Scouts
@@ -142,7 +142,7 @@ export default function IndexPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="flex h-[400px] w-[400px] flex-col items-center justify-around rounded-[1rem] bg-[#e96e33] p-4"
+            className="flex h-[400px] w-full sm:w-[400px]  flex-col items-center justify-around rounded-[1rem] bg-[#e96e33] p-4"
           >
             <h3 className=" stroke-2 text-3xl font-bold tracking-wider text-white">
               Legislation
@@ -164,7 +164,7 @@ export default function IndexPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="border-whit flex h-[400px] w-[400px] flex-col items-center justify-around rounded-[1rem]  bg-[#43798a] p-4"
+            className="border-whit flex h-[400px] w-full sm:w-[400px]  flex-col items-center justify-around rounded-[1rem]  bg-[#43798a] p-4"
           >
             <h3 className=" stroke-black stroke-2 text-3xl font-bold tracking-wider text-white">
               Presentation
@@ -186,7 +186,7 @@ export default function IndexPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className="border-whit flex h-[400px] w-[400px] flex-col items-center justify-around rounded-[1rem]  bg-[#6c4f3d] p-4"
+            className="border-whit flex h-[400px] w-full sm:w-[400px]  flex-col items-center justify-around rounded-[1rem]  bg-[#6c4f3d] p-4"
           >
             <h3
               style={{

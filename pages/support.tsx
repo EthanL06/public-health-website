@@ -35,15 +35,17 @@ const Support = (props: Props) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
-          className="relative flex flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#FFE8D3] py-6 px-4 text-center gap-y-4"
+          className="relative flex flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#858484] py-6 px-4 text-center gap-y-4 pt-12"
         >
           <img
             src="/1.png"
             className="absolute -top-16 left-1/2 -translate-x-1/2"
           />
 
-          <h2 className="text-center text-3xl font-bold ">Learn and Share!</h2>
-          <p className="mt-4 text-base font-semibold  leading-8  opacity-80 ">
+          <h2 className="text-center text-3xl font-bold text-white">
+            Learn and Share!
+          </h2>
+          <p className="mt-4 text-base font-semibold  leading-8  opacity-80 text-white">
             Our purpose is to teach you! The best thing you could do for us is
             read our Instagram posts and share to your friends!
           </p>
@@ -60,16 +62,16 @@ const Support = (props: Props) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
           viewport={{ once: true }}
-          className="relative flex w-full flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#CFF0F9] py-6 px-4 text-center gap-y-4"
+          className="relative flex w-full flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#EB7D45] py-6 px-4 text-center gap-y-4 pt-12"
         >
           <img
             src="/2.png"
             className="absolute -top-16 left-1/2 -translate-x-1/2"
           />
-          <h2 className="text-center text-3xl font-bold ">
+          <h2 className="text-center text-3xl font-bold text-white">
             Attend our Events!
           </h2>
-          <p className="mt-4 text-base font-semibold  leading-8  opacity-80">
+          <p className="mt-4 text-base font-semibold  leading-8  opacity-80 text-white">
             Coming Soon!
           </p>
           <Link
@@ -85,17 +87,17 @@ const Support = (props: Props) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.7 }}
           viewport={{ once: true }}
-          className="relative flex flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#F6D1CC] py-6 px-4 text-center gap-y-4"
+          className="relative flex flex-col items-center justify-between rounded-[1rem] border-4 border-white bg-[#43798A] py-6 px-4 text-center gap-y-4 pt-12"
         >
           <img
             src="/3.png"
             className="absolute -top-16 left-1/2 -translate-x-1/2"
           />
 
-          <h2 className="text-center text-3xl font-bold ">
+          <h2 className="text-center text-3xl font-bold text-white">
             Donate your Items!
           </h2>
-          <p className="mt-4 text-base font-semibold  leading-8  opacity-80">
+          <p className="mt-4 text-base font-semibold  leading-8  opacity-80 text-white">
             Support our First Aid kit drive! Can&apos;t come in person to
             donate? Buy from our Amazon wishlist!
           </p>

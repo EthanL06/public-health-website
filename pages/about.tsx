@@ -111,14 +111,20 @@ const About = (props: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="prose mt-[15vh] max-w-2xl px-4 text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide"
+        className="prose mt-[15vh] max-w-4xl px-4 text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide"
       >
         <h1>How we started.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          We began as a school club with a mission to solve a significant issue
+          in our community and make a lasting impact. We quickly identified
+          public health as an area where we could create meaningful change
+          through numerous initiatives. By collaborating with community members,
+          we developed a first-aid curriculum and provided resources to
+          non-profit clinics, among other projects. Our efforts were recognized
+          by the Future Problem Solvers Organization, earning us 5th place in
+          Texas. Since then, we have recognized the potential of our cause and
+          are now focused on expanding our efforts through new mediums and
+          reaching a global audience."
         </p>
       </motion.article>
 
@@ -127,14 +133,23 @@ const About = (props: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="prose mt-[15vh]  mb-[10vh]  max-w-2xl px-4 text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide"
+        className="prose mt-[15vh]  mb-[10vh]  max-w-4xl px-4 text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide"
       >
         <h1>Why we started.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          We focused on public health for various reasons, including the vast
+          lack of knowledge on topics like first aid and the emergence of new
+          health crises. For instance, we realized that a majority of the
+          individuals we knew did not know how to react in emergency situations
+          where individuals suffered life-threatening conditions like heart
+          attacks and strokes. We recognized that addressing this uncertainty
+          could save lives and prevent life-altering injuries. Moreover, with
+          the emergence of public health pandemics, we saw the weaknesses that
+          plagued public health systems, and how various health disparities
+          exist between different populations, such as differences in access to
+          healthcare, education, and resources. These disparities can lead to
+          poorer health outcomes for certain groups and the rapid spread of
+          disinformation.
         </p>
       </motion.article>
 

@@ -76,7 +76,7 @@ export default function IndexPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: true }}
-              className="mb-4 text-center text-3xl font-bold lg:text-left"
+              className="mb-4 text-center text-4xl font-bold lg:text-left"
             >
               Mission Statement
             </motion.h2>
@@ -87,10 +87,16 @@ export default function IndexPage() {
               viewport={{ once: true }}
               className=" text-center font-medium leading-9  lg:text-left"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Our mission is to protect the health of individuals both in our
+              community of Greater Houston and around the world through a
+              multitude of measures. We seek to address the issues that plague
+              public health systems nationwide and help rewrite policy that
+              ensures equitable access to quality healthcare, education, and
+              prevention services for all. Our goal is to collaborate with local
+              and global partners to advance research and innovation in
+              healthcare, promote health literacy, and empower individuals and
+              communities to make informed decisions about their health.
+              Together, we can build a healthier and more resilient world!
             </motion.p>
           </div>
         </div>
@@ -126,8 +132,8 @@ export default function IndexPage() {
               Boy Scouts
             </h3>
             <p className="text-center font-medium leading-9 tracking-wide text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
+              Information on how we worked with local Boy Scouts of America
+              Troops to further our initiatives.
             </p>
             <Link
               href={"initiatives/boyscouts"}
@@ -148,8 +154,9 @@ export default function IndexPage() {
               Legislation
             </h3>
             <p className="text-center font-medium leading-9 tracking-wide text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
+              How we worked with local and national governments to recognize
+              weaknesses in the public health system and work towards effective
+              policy
             </p>
             <Link
               href={"initiatives/legislation"}
@@ -170,8 +177,8 @@ export default function IndexPage() {
               Presentation
             </h3>
             <p className="text-center font-medium leading-9 tracking-wide text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
+              Examples of public health-centered presentations we delivered to a
+              variety of audiences from elementary schoolers to adults.
             </p>
             <Link
               href={"initiatives/presentation"}
@@ -198,8 +205,8 @@ export default function IndexPage() {
               Books
             </h3>
             <p className="text-center font-medium leading-9 tracking-wide text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
+              An educative book we developed to teach young students how to
+              react and use first-aid when they encounter emergency situations.
             </p>
             <Link
               href={"initiatives/books"}

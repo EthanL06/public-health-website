@@ -124,7 +124,7 @@ const About = (props: Props) => {
           by the Future Problem Solvers Organization, earning us 5th place in
           Texas. Since then, we have recognized the potential of our cause and
           are now focused on expanding our efforts through new mediums and
-          reaching a global audience."
+          reaching a global audience.
         </p>
       </motion.article>
 

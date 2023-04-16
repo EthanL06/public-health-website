@@ -29,32 +29,7 @@ const About = (props: Props) => {
         </motion.div>
       </div>
 
-      <div className="mt-12 flex grid-cols-3 grid-rows-1 flex-wrap justify-center gap-4 lg:grid">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="flex flex-col items-start justify-between rounded-[1rem]  bg-[#858484] p-4"
-        >
-          <img className="h-auto w-full rounded-[0.5rem]" src="/sanjay.png" />
-          <div>
-            <h3 className="mt-4 text-base font-semibold  text-white opacity-80">
-              Co-Founder
-            </h3>
-            <h2 className="text-2xl font-bold tracking-wider text-white">
-              Sanjay Krishna
-            </h2>
-          </div>
-
-          <a
-            href="mailto:sanju.krishna131@gmail.com"
-            className="mt-4 text-white underline"
-          >
-            sanju.krishna131@gmail.com
-          </a>
-        </motion.div>
-
+      <div className="mt-12 flex grid-cols-2 grid-rows-1 flex-wrap justify-center gap-4 lg:grid">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -14,25 +14,27 @@ const Presentation = (props: Props) => {
       </div>
       <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4">
         <h1>Presentation</h1>
-        <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vTg9T7EaJfJR6GvvvWNrB4-tDtIBVWU6E9FtlsINNB6914euzU6H_t8xyPSMY10TuoQNc6x44Tk_8hM/embed?start=false&loop=false&delayms=3000"
+          allowFullScreen={true}
+          className="w-full h-[25rem] rounded-lg"
+        ></iframe>
 
-        <p>
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vTUzbNDMUx1O4PpTQ30JgzdSVTKxbrCIASeO0mnpV3pQj3tPgr1rDZgwchAFSLyz2XT0COmDtIXR1gx/embed?start=false&loop=false&delayms=3000"
+          allowFullScreen={true}
+          className="w-full h-[25rem] rounded-lg mt-4"
+        ></iframe>
+
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vSD78FxeqlLTWDl00BBUaqyLbXqBExaNYZ4seZ_Cv9CeV9v-l4Jdwanh1SUgilzSBZDkGYAg2LArsiq/embed?start=false&loop=false&delayms=3000"
+          allowFullScreen={true}
+          className="w-full h-[25rem] rounded-lg mt-4"
+        ></iframe>
+
+        <p className="invisible">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
         </p>
       </article>
       <Footer />

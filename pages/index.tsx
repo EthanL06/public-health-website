@@ -54,21 +54,14 @@ export default function IndexPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
+            className="w-[20rem] h-[15rem] sm:w-[42rem] sm:h-[26rem] lg:w-full lg:h-full px-4"
           >
-            <Carousel showStatus={false}>
-              <div>
-                <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
-                <p className="legend">Legend 1</p>
-              </div>
-              <div>
-                <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
-                <p className="legend">Legend 1</p>
-              </div>
-              <div>
-                <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
-                <p className="legend">Legend 1</p>
-              </div>
-            </Carousel>
+            <iframe
+              src="https://docs.google.com/presentation/d/e/2PACX-1vSBGr52lnXHDxeBxP0rQbmOf1K4XuKhjtCQtx1R94gfjKYsQ2PEGnN0zlNXywdFMn5XEbJdrH2_EP4v/embed?start=false&loop=false&delayms=3000"
+              frameBorder="0"
+              allowFullScreen={true}
+              className="rounded-[1rem] w-full h-full"
+            ></iframe>
           </motion.div>
           <div className="flex max-w-2xl flex-col lg:max-w-none">
             <motion.h2
@@ -102,7 +95,7 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <div className="my-4 mb-20 hidden items-center gap-x-2 lg:flex">
+      <div className="my-20 hidden items-center gap-x-2 lg:flex">
         <div className="h-3 w-3 rounded-full bg-[#0B1E5B]"></div>
         <div className="h-3 w-3 rounded-full bg-[#0B1E5B]"></div>
         <div className="h-3 w-3 rounded-full bg-[#0B1E5B]"></div>

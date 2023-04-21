@@ -142,8 +142,6 @@ const Support = (props: Props) => {
         >
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdjMPACbksMWlcEv2If4KhNiv5mV-NgfhGoamObebsKp4LfiQ/viewform?embedded=true"
-            marginheight="0"
-            marginwidth="0"
             className="w-full h-[62.5rem]"
           >
             Loading…

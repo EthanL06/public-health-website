@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
 type Props = {};
-const Books = (props: Props) => {
+const DonationDrive = (props: Props) => {
   return (
     <div className="mx-auto flex h-full min-h-screen max-w-6xl flex-col items-center p-6 lg:p-4">
       <Navbar />
@@ -12,31 +12,38 @@ const Books = (props: Props) => {
         <img className="w-4" src={"/back.svg"} />
         <Link href={"/"}>Back</Link>
       </div>
-      <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4">
+      <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4 text-center">
         <h1>Donation Drives</h1>
-        <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
 
-        <p>
+        <figure>
+          <img src="/access_health.png" />
+          <figcaption>
+            <p>
+              <strong>
+                Access Health (non-profit clinic) Medical Supply Donation Drive
+              </strong>
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="/donation.png" />
+          <figcaption>
+            <p>
+              <strong>
+                India orphanage medical/personal hygiene supply donation drive
+              </strong>
+            </p>
+          </figcaption>
+        </figure>
+
+        <p className="invisible">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
         </p>
       </article>
       <Footer />
     </div>
   );
 };
-export default Books;
+export default DonationDrive;

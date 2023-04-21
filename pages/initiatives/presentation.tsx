@@ -14,6 +14,10 @@ const Presentation = (props: Props) => {
       </div>
       <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4">
         <h1>Presentation</h1>
+
+        <h3 className="text-center">
+          Presentations we have delivered to individuals in greater Houston.
+        </h3>
         <iframe
           src="https://docs.google.com/presentation/d/e/2PACX-1vTg9T7EaJfJR6GvvvWNrB4-tDtIBVWU6E9FtlsINNB6914euzU6H_t8xyPSMY10TuoQNc6x44Tk_8hM/embed?start=false&loop=false&delayms=3000"
           allowFullScreen={true}

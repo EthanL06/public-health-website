@@ -50,7 +50,7 @@ const Support = (props: Props) => {
             read our Instagram posts and share to your friends!
           </p>
           <Link
-            href={"/"}
+            href={"https://www.instagram.com/sevenlakesfps/"}
             className="mt-4 rounded-full bg-white  px-4 py-3 text-lg font-semibold transition-transform hover:scale-95 active:scale-90"
           >
             Our Posts
@@ -102,13 +102,56 @@ const Support = (props: Props) => {
             donate? Buy from our Amazon wishlist!
           </p>
           <Link
-            href={"/"}
+            href={
+              "https://www.amazon.com/hz/wishlist/ls/1GGMQR97BDUF3?ref_=wl_share"
+            }
             className="mt-4 rounded-full bg-white  px-4 py-3 text-lg font-semibold transition-transform hover:scale-95 active:scale-90"
           >
             Amazon Wishlist
           </Link>
         </motion.div>
       </div>
+
+      <div className="flex flex-col items-center w-full mb-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="text-center text-4xl font-bold mb-4"
+        >
+          Get Involved
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center text-lg mb-8"
+        >
+          Do you want to help us out or collaborate with our organization?
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.7 }}
+          viewport={{ once: true }}
+          className="max-w-[40rem] w-full"
+        >
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdjMPACbksMWlcEv2If4KhNiv5mV-NgfhGoamObebsKp4LfiQ/viewform?embedded=true"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            className="w-full h-[62.5rem]"
+          >
+            Loading…
+          </iframe>
+        </motion.div>
+      </div>
+
       <Footer />
     </div>
   );

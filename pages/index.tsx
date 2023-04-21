@@ -195,14 +195,14 @@ export default function IndexPage() {
               }}
               className=" text-3xl font-bold tracking-wider text-white"
             >
-              Books
+              Donation Drives
             </h3>
             <p className="text-center font-medium leading-9 tracking-wide text-white">
-              An educative book we developed to teach young students how to
-              react and use first-aid when they encounter emergency situations.
+              Medical Donation Drives we have conducted to help out non-profit
+              clinics and support orphanages.
             </p>
             <Link
-              href={"initiatives/books"}
+              href={"initiatives/donationdrives"}
               className="rounded-full bg-white px-4 py-3 text-lg font-medium transition-transform hover:scale-95 active:scale-90"
             >
               Learn More
@@ -222,7 +222,7 @@ export default function IndexPage() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="my-24 flex w-full flex-wrap items-center justify-around gap-4 rounded-[1rem] bg-[#F6D1CC] py-14"
+        className="my-24 flex w-full flex-wrap items-center justify-around gap-4 rounded-[1rem] bg-[#F6D1CC] py-14 px-4"
       >
         <h1 className="text-center text-3xl font-extrabold tracking-wider">
           Want to help out?

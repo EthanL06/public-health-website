@@ -49,7 +49,7 @@ const Footer = (props: Props) => {
         <hr className="w-full border border-[#0B1E5B]" />
 
         <p className="mt-5 text-center text-[#0B1E5B]">
-          © 2023 Let&apos;s Learn About Public Health! All rights reserved.
+          © 2023 The Health Education Project. All rights reserved.
         </p>
       </div>
     </motion.footer>

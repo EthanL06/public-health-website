@@ -71,10 +71,10 @@ const Navbar = (props: Props) => {
                   Presentation
                 </Link>
                 <Link
-                  href={"/initiatives/books"}
+                  href={"/initiatives/donationdrives"}
                   className="hover:bg-black/10 overflow-clip p-3"
                 >
-                  Books
+                  Donation Drives
                 </Link>
               </div>
             )}

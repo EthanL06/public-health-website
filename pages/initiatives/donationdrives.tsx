@@ -13,7 +13,7 @@ const Books = (props: Props) => {
         <Link href={"/"}>Back</Link>
       </div>
       <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4">
-        <h1>Books</h1>
+        <h1>Donation Drives</h1>
         <img src="https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg" />
 
         <p>

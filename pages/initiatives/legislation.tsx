@@ -14,16 +14,7 @@ const Legislation = (props: Props) => {
       </div>
       <article className="prose mt-2  mb-12 flex-1 prose-h1:text-center prose-p:text-base prose-p:font-medium prose-p:leading-9 prose-p:tracking-wide prose-img:rounded-lg lg:mt-4">
         <h1>Legislation</h1>
-        <object
-          data="/biden_email.pdf"
-          type="application/pdf"
-          className="w-full h-[50rem]"
-        >
-          <p>
-            Alternative text - include a link{" "}
-            <a href="/biden_email.pdf">to the PDF!</a>
-          </p>
-        </object>
+        <embed src="/biden_email.pdf" className="w-full h-[50rem]" />
 
         <p className="invisible">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

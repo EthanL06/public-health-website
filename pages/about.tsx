@@ -2,8 +2,20 @@ type Props = {};
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
-
+import { useState } from "react";
 const About = (props: Props) => {
+  const [clickedReadMoreOne, setClickedReadMoreOne] = useState(false);
+  const [clickedReadMoreTwo, setClickedReadMoreTwo] = useState(false);
+
+  const bios = {
+    anagha: {
+      text: "Hi! My name is Anagha Menon and I am a junior at Seven Lakes High School. I am extremely passionate in health care practice and application. My interest in first aid stemmed from working as a patient educator at a local low income clinic, and from there I have interned at a public health research lab. I'm also currently First-Aid/CPR/AED certified through the American Red Cross. Outside of healthcare, I'm a Secretary of my grade, an Indian classical dancer, and a member of my high school varsity orchestra. This project means so much to me, and I am excited to watch it grow and save lives! Thank you for your support!",
+    },
+    shaunak: {
+      text: "Hello My name is Shaunak Kapur! I am a junior at Seven Lakes High School, I'm involved in numerous extracurriculars including Model United Nations, Robotics, and Technology Students Association, and I am also an Eagle Scout. I helped start this organization because I recognized the importance of first-aid skills that I learned in my first-aid merit badge and I was concerned about the increasing amounts of disinformation that I saw spreading online and causing health mishaps. My goal is to expand this organization internationally and help develop curriculums for all age groups that can both accurately teach the first-aid curriculum and inform individuals on how to avoid health misinformation and consult trustable sources!",
+    },
+  };
+
   return (
     <div className="mx-auto flex h-full min-h-screen max-w-6xl flex-col items-center p-4">
       <Navbar />
@@ -29,7 +41,7 @@ const About = (props: Props) => {
         </motion.div>
       </div>
 
-      <div className="mt-12 flex grid-cols-2 grid-rows-1 flex-wrap justify-center gap-4 lg:grid">
+      <div className="mt-12 flex grid-cols-2 grid-rows-1 flex-wrap justify-center gap-4 lg:grid ">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -38,13 +50,29 @@ const About = (props: Props) => {
           className="flex flex-col items-start justify-between rounded-[1rem] bg-[#E96E33] p-4"
         >
           <img className="h-auto w-full rounded-[0.5rem]" src="/anagha.png" />
-          <div>
+          <div className="h-full flex flex-col">
             <h3 className="mt-4 text-base font-semibold  text-white opacity-80">
               Co-Founder
             </h3>
             <h2 className="text-2xl font-bold tracking-wider text-white">
               Anagha Menon
             </h2>
+
+            <p className="mt-2 text-white">
+              {clickedReadMoreOne ? (
+                bios.anagha.text
+              ) : (
+                <>
+                  {bios.anagha.text.substring(0, 250) + "..."}
+                  <button
+                    onClick={() => setClickedReadMoreOne(true)}
+                    className="underline"
+                  >
+                    Read More
+                  </button>
+                </>
+              )}
+            </p>
           </div>
 
           <a
@@ -63,13 +91,28 @@ const About = (props: Props) => {
           className="flex flex-col items-start justify-between rounded-[1rem]  bg-[#43798A] p-4"
         >
           <img className="h-auto w-full rounded-[0.5rem]" src="/shaunak.png" />
-          <div>
+          <div className="h-full">
             <h3 className="mt-4 text-base font-semibold  text-white opacity-80">
               Co-Founder
             </h3>
             <h2 className="text-2xl font-bold tracking-wider text-white">
               Shaunak Kapur
             </h2>
+            <p className="mt-2 text-white">
+              {clickedReadMoreTwo ? (
+                bios.shaunak.text
+              ) : (
+                <>
+                  {bios.shaunak.text.substring(0, 250) + "..."}
+                  <button
+                    onClick={() => setClickedReadMoreTwo(true)}
+                    className="underline"
+                  >
+                    Read More
+                  </button>
+                </>
+              )}
+            </p>
           </div>
 
           <a
